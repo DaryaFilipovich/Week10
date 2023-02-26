@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding New Patient</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <br>
+    <div class="card">
+       <div class="card-body">
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" class="form-control" id="dob">
+
+                </div>
+            </div>
+
+            <div class="col-sm">
+                  <div class="form-group">
+                    <label for="appt">Date of First Appointment</label>
+                    <input type="date" class="form-control" id="appt">
+                    
+                </div>
+            </div>
+        </div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="new-task">Type in Patient's name</label>
+                    <input type="text" class="form-control" id="new-task" placeholder="Jack Johnson">
+
+                    
+                </div>
+            </div>
+            
+        <div>
+            <div>
+                <button id="add" class="btn btn-primary">Add Patient</button>
+            </div>
+
+        </div>
+       </div>
+    </div>
+
+    <table id="list" class="table table-light table-striped">
+
+        <tr>
+            <th>Patient's name</th>
+            <th>Date Created</th>
+            <th>Date of Birth</th>
+            <th>Date of First Appointment</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+
+    </div>
+    
+
+  
+
+    
+    
+    
+   
+
+    
+    <script src="week10.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
